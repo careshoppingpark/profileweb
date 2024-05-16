@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<hade>
+<body bgcolor=white></body>
+<left>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	
+  <img src="Untitled-1-03.png" hight="100" width="100">&nbsp;&nbsp;</left>
+
+<title>
+<title>Bootstrap Exzample</title>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      
+    
+     
+     <a class="navbar-brand" href="file:///F:/New%20folder%20(2)/CSS/About.html">About</a>&nbsp;&nbsp;&nbsp;&nbsp;
+ 	   <a class="navbar-brand" href=file:///F:/New%20folder%20(2)/CSS/Greecania%20Story.html>Portfolio</a>&nbsp;&nbsp;&nbsp;&nbsp;
+     <a class="navbar-brand" href="file:///F:/New%20folder%20(2)/CSS/07.thml.html">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;
+     <a class="navbar-brand" href="file:///F:/New%20folder%20(2)/CSS/Resume.html">Resume</a>&nbsp;&nbsp;&nbsp;&nbsp;
+     <BUTTON TYPE="button" CLASS="btn btn-primary">Contact Us</BUTTON>
+            
+<center>
+
+
+
+<h1 style="background-color:lightskyblue;line-height:15;">WELCOME</h1>
+	</center>
+
+
+  <marquee scrool amount=500 direction=right>
+      <img src="1-01.jpg" hight="150" width="150">&nbsp;&nbsp;&nbsp;&nbsp;
+      <img src="1-02.jpg" hight="150" width="150">&nbsp;&nbsp;&nbsp;&nbsp;
+      <img src="1-03.jpg" hight="150" width="150">&nbsp;&nbsp;&nbsp;&nbsp;
+      <img src="1-04.jpg" hight="150" width="150">&nbsp;&nbsp;&nbsp;&nbsp;
+      <img src="1-05.jpg" hight="150" width="150">&nbsp;&nbsp;&nbsp;&nbsp;
+      <img src="1-06.jpg" hight="150" width="150">&nbsp;&nbsp;&nbsp;&nbsp;
+      <img src="1-07.jpg" hight="150" width="150">&nbsp;&nbsp;&nbsp;&nbsp;
+      <img src="1-08.jpg" hight="150" width="150">&nbsp;&nbsp;&nbsp;&nbsp;
+      <img src="1-09.jpg" hight="150" width="150">&nbsp;&nbsp;&nbsp;&nbsp;
+      <img src="1-10.jpg" hight="150" width="150">&nbsp;&nbsp;&nbsp;&nbsp;
+      <img src="1-11.jpg" hight="150" width="150">&nbsp;&nbsp;&nbsp;&nbsp;</marquee>
+
+
+      <style>
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: 40%;
+
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+
+}
+
+.responsive {
+  padding: 0 50px;
+  float: left;
+  width:24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 25%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+<body>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="file:///F:/New%20folder%20(2)/CSS/Blue%20Parrot.html">
+      <img src="background-2.jpg" align="center" width="100" height="100">
+    </a>
+    <div class="desc">INIFD</div>
+  </div>
+</div>
+
+
+
+<div class="responsive">
+  <div class="gallery"> 
+    <a target="_blank" href="file:///F:/New%20folder%20(2)/CSS/07.thml.html">
+      <img src="background-2.jpg" align="center" width="100" height="100">
+    </a>
+    <div class="desc">Graphico Art</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="file:///F:/New%20folder%20(2)/CSS/07.thml.html">
+      <img src="background-2.jpg" align="center" width="100" height="100">
+    </a>
+    <div class="desc">Swacreation</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="file:///F:/New%20folder%20(2)/CSS/07.thml.html">
+      <img src="background-2.jpg" align="center" width="100" height="100">
+    </a>
+    <div class="desc">eHealth System</div>
+  </div>
+</div>
+
+<div class="clearfix"></div>
+
+<div style="padding:10px;">
+</div>
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+
+<marquee scrool amount=20 direction=right bgcolor=lightskyblue> THANK YOU </marquee>
+</div>
+
+<center>
+
+
+
+<h1 style="background-color:white;line-height:0;">
+  <img src="VEKTOR ICON7.png" align="center"width="20" hight="20">
+  <img src="linkedin-icon-logo-png-transparent.png" align="center" width="20" hight="20">
+  <img src="instagram-icon-white-on-gradient.png" align="center" width="30" hight="30"></title></h1>
+</center>
+</STYLE>
+</center>
+</head>
+</html>
